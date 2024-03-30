@@ -1,0 +1,19 @@
+{
+  "": {
+    "prefix": "lambda1",
+    "body": [
+      "function<void(ll, ll)> dfs = [&](ll node, ll par) -> void {",
+      "    int cnt = 0;",
+      "    for(auto it : adj[node]) {",
+      "        if(it != par) {",
+      "            dfs(it, node);",
+      "            cnt += childs[it];",
+      "        }",
+      "    }",
+      "    childs[node] = 1 + cnt;",
+      "};",
+      "dfs(1, -1);"
+    ],
+    "description": ""
+  }
+}

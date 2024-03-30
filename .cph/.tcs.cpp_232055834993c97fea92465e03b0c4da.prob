@@ -1,0 +1,1 @@
+{"name":"Local: tcs","url":"c:\\Users\\hp\\Desktop\\VSCode\\tcs.cpp","tests":[{"id":1702094543531,"input":"4 2 8 5 1 3 6\n8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hp\\Desktop\\VSCode\\tcs.cpp","group":"local","local":true}

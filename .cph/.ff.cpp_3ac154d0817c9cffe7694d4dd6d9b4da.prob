@@ -1,0 +1,1 @@
+{"name":"Local: ff","url":"c:\\Users\\hp\\Desktop\\VSCode\\ff.cpp","tests":[{"id":1706760910856,"input":"3aabacbebebe","output":"cbebebe"},{"id":1706963233479,"input":"2aabbcbbbadef","output":"bbcbbb"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hp\\Desktop\\VSCode\\ff.cpp","group":"local","local":true}

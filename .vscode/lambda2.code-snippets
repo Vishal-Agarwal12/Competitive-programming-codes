@@ -1,0 +1,20 @@
+{
+  "": {
+    "prefix": "lambda2",
+    "body": [
+      "auto dfs = [&] (auto&& self, ll node, ll par) -> void {",
+      "    int cnt = 0;",
+      "    for(auto it : adj[node]) {",
+      "        if(it != par) {",
+      "            self(self, it, node);",
+      "            cnt += childs[it];",
+      "        }",
+      "    }",
+      "    childs[node] = 1 + cnt;",
+      "};",
+      "",
+      "dfs(dfs, 1, -1);"
+    ],
+    "description": ""
+  }
+}
